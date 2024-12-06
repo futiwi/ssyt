@@ -1,0 +1,311 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+
+<body>
+    <header>
+        <img src="C:\Users\ГИА\Desktop\весь код\aististsgs.PNG" alt="Логотип" id="logo">
+
+        <div class="container1">
+                    <a href="newpage.html">Акция</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="newpage.html">Мероприятия</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="newpage.html">Мерч</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://futiwi.github.io/registration/">О нас</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://futiwi.github.io/registration/">Регистрация</a>
+                    <a href class="btn vxod-btn">Вход</a> 
+
+                    <nav>
+                        <ul>
+                            <h3 class="gradient-text">ВД "Үтүө Саха"</h3>
+                        </ul>
+                    </nav>
+<style>
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #logo {
+    width: 150px;  /* задайте желаемую ширину */
+    height: auto;  /* сохраняет пропорции изображения */
+    margin: 20px;  /* добавление отступа */
+}
+
+.container {
+    width: 90%;
+    height: 200px; /* фиксированная высота для больших экранов */
+    max-width: 1500px;
+    margin: 300px;
+    padding: 0px;
+    margin-top: 200px;
+}
+
+.image-container {
+    text-align: center; /* Центрирует изображения по горизонтали */
+    
+}
+
+img {
+    margin: 100px; /* Отступы между изображениями */
+    max-width: 100%; /* Для адаптивного изображения */
+    height: auto; /* Сохраняет пропорции изображения */
+}
+
+        body {
+            font-family: 'Arial Narrow', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fde2a6;
+            background: linear-gradient(to bottom, #ffffff, #ffffff);
+            color: #000000;
+        }
+
+        .gradient-text {
+    font-size: 128px; 
+    font-weight: bold; 
+    background-image: linear-gradient(to bottom, #0040e2, #a1f718); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 50px; /* Увеличиваем расстояние между буквами */
+        }   
+
+        .register-btn {
+    margin-left: 400px; /* Отодвигаем кнопку регистрации к правому краю */
+    background-color: #087BFF; /* Зеленый цвет для кнопки регистрации */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Заокругление углов */
+}
+
+.register-btn:hover {
+    background-color: #1808ff; /* Темно-зеленый при наведении */
+}
+
+.vxod-btn {
+    margin-left: 200px; /* Отодвигаем кнопку регистрации к правому краю */
+    background-color: #2be086; /* Зеленый цвет для кнопки регистрации */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем границы */
+    border-radius: 5px; /* Заокругление углов */
+}
+
+.vxod-btn:hover {
+    background-color: #15a85f; /* Темно-зеленый при наведении */
+}
+
+        header {
+            background: linear-gradient(to bottom, #e6f6ff, #bceff8);
+            color: #000000;
+            padding: 20px 0;
+            font-size: 36px; 
+            text-align: end;
+            margin-bottom: 5px;
+            width: 100%;
+            border-radius: 10px;
+            display: flex; /* Используем флексбокс для центрирования */
+            justify-content: center; /* Центрируем по горизонтали */
+            align-items: center; /* Центрируем по вертикали */
+            text-align: center; /* Центрируем текст внутри контейнера */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .container {
+    display: flex;
+    align-items: center;
+    margin: 300px;
+}
+
+.text-column {
+    flex: 1;
+    padding: 200px;
+}
+
+.button-container {
+    margin: 300px; /* Отступ для кнопки */
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.my-button {
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер текста кнопки */
+    cursor: pointer; /* Поменять курсор при наведении */
+    border: none; /* Без рамки */
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border-radius: 5px; /* Закруглённые углы */
+}
+
+.my-button:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
+
+.image-column {
+    flex: 1;
+    margin: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы по всей ширине */
+    margin: 200px; /* Внешний отступ вокруг контейнера */
+    align-items: center;
+    margin-top: 400px;
+}
+
+.item {
+    text-align: center; /* Центрация текста под изображением */
+    flex: 1; /* Позволяет элементам занимать равную ширину */
+    margin: 0 10px; /* Горизонтальный отступ между элементами */
+}
+
+img {
+    max-width: 100%; /* Ограничивает ширину изображения до 100% контейнера */
+}
+
+    </style>
+
+</head>
+
+<body>
+    </header>
+        <div class="image-container">
+                <img src="C:\Users\ГИА\Desktop\весь код\фото с дипомом.jpg" 
+                width="1280" 
+                height="761" 
+                alt="Описание изображения">
+            </div>
+    <div style="display: flex; flex-direction:row">
+
+        <div class="image-container">
+            <div class="item">
+                    <img src="C:\Users\ГИА\Desktop\весь код\меню.jpeg" width="208" 
+                    height="167" 
+                    alt="Ice cream">
+                    <h3>Большой выбор</h3>
+                    <p>Информация о сотнях мероприятиях, акций, проектах, волонтеров Якутии.</p>
+                </div>
+        </div>
+               
+            <div class="image-container">
+                <div class="item">
+                        <img src="C:\Users\ГИА\Desktop\весь код\кубок).jpeg"  width="208" 
+                        height="167" 
+                        alt="Ice cream">
+                        <h3>Конкурс проектов</h3>
+                        <p>Участвуйте в конкурсах, побеждайте и получайте грант на реализацию проекта.</p>
+                    </div>
+                </div>
+    
+                <div class="image-container">
+                    <div class="item">
+                            <img src="C:\Users\ГИА\Desktop\весь код\звезда.jpeg" width="208" 
+                            height="167" 
+                            alt="Ice cream">
+                            <h3>Система оценки</h3>
+                            <p>Качество работы волонтеров и организаторов гарантируется рейтингом и верификацией.</p>
+                        </div>
+                </div>  
+    </div>
+
+</head>
+
+<body>
+    </header>
+    <div class="image-container">
+                <img src="C:\Users\ГИА\Desktop\весь код\herb.PNG" 
+                width="1440" 
+                height="563" 
+                alt="Описание изображения">
+            </div>
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="text-column">
+            <br><br><br>
+            <h1>Волонтерам</h1>
+            <h3>Помогайте другим</h3>
+            <p style="color: rgb(11, 145, 69);">Участвуйте в различных мероприятиях и получайте волонтерские часы.</p>
+            <h3>Набирайтесь опыта </h3>
+            <p style="color: rgb(141, 11, 111);"> Развивайтесь вместе с нами и реализуйте собственный проект.</p>
+            <h3>Станьте организатором своего мероприятия</h3>
+            <p style="color: rgb(23, 21, 143);">Предложите свою идею в чат-боте, получите обратную связь и вперед!</p>
+        </div>
+        <div class="image-container">
+            <img src="C:\Users\ГИА\Desktop\весь код\фото общее.jpeg" 
+            width="692" 
+            height="625" 
+            alt="Пример изображения" />
+        </div>
+    </div>
+</style>
+
+<body>
+</header>
+        <div class="button-container">
+            <button class="my-button">Присоединится к движению</button>
+            <button class="my-button">Мероприятия</button>
+        </div>
+    </div>
+</body>
+</html>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>Недавние благотворительные акции</h1>
+                        <img src="C:\Users\ГИА\Desktop\весь код\рука сердце.JPG" width="470" 
+                        height="468" 
+                        alt="Ice cream">
+            <h3>Новогодняя полка добра!</h3>
+            <p>Закажите подарок ребенку через маркетплейс, отправьте чек в чат и он будет передан в детский дом или школу-интернат</p>
+            </div>
+            <div class="item">
+                        <img src="C:\Users\ГИА\Desktop\весь код\дерево.JPG" width="470" 
+                        height="468" 
+                        alt="Ice cream">
+            <h3>Дерево добра</h3>
+            <p>Оформите подписку в адрес детского дома или дома престарелых своего района. Благодаря вам дети и пожилые будут бесплатно получать газеты и журналы</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        </head>
+        <body>
+            <div class="container">
+                <div class="item">
+                    <img src="C:\Users\ГИА\Desktop\весь код\диана.jpg" alt="Изображение 1">
+                </div>
+                <div class="item">
+                    <img src="C:\Users\ГИА\Desktop\весь код\ларина.jpg" alt="Изображение 2">
+                </div>
+                <div class="item">
+                    <img src="C:\Users\ГИА\Desktop\весь код\я.jpg" alt="Изображение 3">
+                </div>
+            </div>
+        </body>
+        </html>
+
+    </script>
+    <script src="https://bot.jaicp.com/chatwidget/kNvRmhcO:9bc77a757f8d8967b8e79422ad1e866663194f10/justwidget.js?force=true" async></script>
+    </body>
+    </html>
+        
+  
